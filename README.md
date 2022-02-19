@@ -1,4 +1,5 @@
 Install cv2 and mediapipe before running.
+
 Run PoseModule.py first, then run AITrainer.py.
 
 MEDIAPIPE BY GOOGLE
