@@ -4,6 +4,7 @@ from cv2 import QT_FONT_NORMAL
 import numpy as np
 import time
 import PoseModule as pm
+#Enter pushup/squats/curls to change video
 cap = cv2.VideoCapture('squats.mp4')
 detector = pm.poseDetector()
 count = 0
