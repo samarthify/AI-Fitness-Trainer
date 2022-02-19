@@ -1,3 +1,6 @@
+Install cv2 and mediapipe before running.
+Run PoseModule.py first, then run AITrainer.py.
+
 MEDIAPIPE BY GOOGLE
 
 The fitness trainer project primarily utilizes the media pipe module to detect the pose of the person in the video. Mediapipe is a set of Customisable ML solutions by Google for Real-time tracking. It provides solutions such as face recognition, hand detection, object tracking, human pose estimation, etc. This project uses a solution called media pipe pose.
