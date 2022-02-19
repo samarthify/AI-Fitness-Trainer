@@ -16,7 +16,7 @@ I have divided the project into two files, PoseModule.py and AITrainer.py. The P
 PoseModule.py
 
 We start by importing the required modules for the project. Then we define a class poseDetector() that would contain everything. The pose detection module is initialized giving suitable parameters and the self keyword is used so that we can access the attributes and methods of the class in python, drawing utilities and pose module are also initialized.
-The function find pose() is defined that would first convert the bar input (default) to RGB
+The function find pose() is defined that would first convert the BGR input (default) to RGB
 (required for pose detection) then draw the landmarks skeleton every time the landmarks are detected. The findPosition() function is used to convert landmark locations to x,y coordinates in the input. It then adds the information of every landmark to the list in the format [id, x coordinate, y coordinate] and draws circles at every landmark position. The findAngle() function is used to find the angle about a set of any three landmarks, It first picks th 1st and 2nd index from the list i.e. x and y coordinates then the function atan2() from the math module is used to find the angle and is stored in the variable angle. Then some more enhanced lines and circles are drawn at the three landmarks which are the region of interest so it can be easily identified. (I have commented out the part which shows the angle to make the interface look clean if you want to see that you can remove the ‘#’s)
 
 
