@@ -1,4 +1,5 @@
 AI Fitness Trainer in action https://drive.google.com/file/d/1hG3Su1XjyxP006r1hSS099xYKkM9pp7Z/view?usp=sharing
+
 Install cv2 and mediapipe before running.
 
 Run PoseModule.py first, then run AITrainer.py.
